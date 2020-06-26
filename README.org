@@ -17,3 +17,5 @@ New site with:
 #+BEGIN_SRC shell-script
   gatsby new gatsby-site
 #+END_SRC
+
+On a new checkout, will need an =npm install= in =gatsby-site= to pull packages in. (Possibly also in the directory above, if the =gatsby-cli= install is local.)
