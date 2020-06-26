@@ -19,3 +19,11 @@ New site with:
 #+END_SRC
 
 On a new checkout, will need an =npm install= in =gatsby-site= to pull packages in. (Possibly also in the directory above, if the =gatsby-cli= install is local.)
+
+Data example. Bring in some styling:
+
+#+BEGIN_SRC shell-script
+  npm install gatsby-plugin-typography typography react-typography typography-theme-kirkham gatsby-plugin-emotion @emotion/core
+#+END_SRC
+
+(Omitting =--save= for now.)
