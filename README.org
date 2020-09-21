@@ -2,6 +2,10 @@
 #+STARTUP: indent
 
 * =gatsby-play=
+** [2020-09-19 Sat]
+
+Catch-up: top-level =node_modules= for the initial (local) Gatsby for creating the site; then another =node_modules= in the actual site directory via =gatsby new=. At this point the initial root =node_modules= (and =package-lock.json=) can probably be removed.
+
 ** [2020-06-26 Fri]
 
 Installing Gatsby via:
